@@ -10,7 +10,9 @@
       var upCase = $filter("uppercase");
       $scope.name = upCase($scope.name);
     };
+
     console.log($injector.Annonate(DIController));
+
   }
   function annonateMe(name,job,blah){
     return "Blah";
